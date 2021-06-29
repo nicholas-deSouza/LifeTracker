@@ -13,10 +13,9 @@ function getDatabaseUri(){
     //if the DATABASE_URL enviroinment variable is provided, use that
     // otherwise create the db connection string ourselves
 
-    return process.env.DATABASE_URL || `postgresql://${dbUser}:${dbPass}:${dbHost}:${dbPort}:${dbName}`
+    return process.env.DATABASE_URL || `postgresql://${dbUser}:${dbPass}@${dbHost}:${dbPort}/${dbName}`
 }
 
-console.log("process.env".yellow, Object.keys(process.env));
 console.log("LifeTracker Config:".red);
 console.log("PORT".blue, PORT);
 console.log("Database URI".red, getDatabaseUri());

@@ -1,4 +1,5 @@
-const { UnauthorizedError } = require("../utils/errors");
+const db = require("../db")
+const { UnauthorizedError } = require("../utils/error");
 
 
 class User {
@@ -16,7 +17,7 @@ class User {
     }
 
     static async register(credentials) {
-        // user should submit their email, pw, resvp status, and # of guests
+        // user should submit their email, pw, rsvp status, and # of guests
         // if any of these fields are missing, throw an error
         //
         // make sure no user already exists in the system with that email
@@ -31,4 +32,4 @@ class User {
 }
 
 
-module.exports = user;
+module.exports = User;
