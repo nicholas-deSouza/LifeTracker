@@ -1,0 +1,24 @@
+h2{
+    width: 117px;
+height: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: right;
+
+color: #00C98E;
+
+}
+
+.password{
+
+position: absolute;
+width: 430px;
+height: 42px;
+color: white;
+}
