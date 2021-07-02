@@ -4,8 +4,6 @@
 
 Submitted by: **Nicholas de Souza**
 
-Deployed Application: [Lifetracker Deployed Site](ADD_LINK_HERE)
-
 ## Application Features
 
 ### Core Features
@@ -40,23 +38,21 @@ Implement any of the following features to improve the application:
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
 https://loom.com/share/48168e830d6b4882b974f7170c283007
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-[Add your response here]
+I felt that the amount of topics that needed to be used at the same time got a little overwhelming at times, specifically using React.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-[Add your response here]
+If I had more time, I would've completed the login and register forms along with implementing the activities.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-[Add your response here]
+I tried using Figma to make the CSS portion of the assignment easier but that didn't work out as planned and so I ended up spending a good chunk of time trying to get things in the right place. 
 
 ### Open-source libraries used
 
@@ -66,4 +62,4 @@ https://loom.com/share/48168e830d6b4882b974f7170c283007
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
-[Add your response here]
+My podmates were very helpful this week and so was Jungah when she helped debug a problem I had earlier in the week along with Matt.
